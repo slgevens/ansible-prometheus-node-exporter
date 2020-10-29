@@ -1,7 +1,10 @@
 ---
-
 dependencies:
-  - UnderGreen.prometheus-exporters-common
+  #- UnderGreen.prometheus-exporters-common
+  - src: https://github.com/UnderGreen/ansible-prometheus-exporters-common.git
+    name: UnderGreen.prometheus-exporters-common
+    version: master
+    scm: git
 
 galaxy_info:
   author: Sergei Antipov
